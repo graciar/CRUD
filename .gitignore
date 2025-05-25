@@ -1,0 +1,11 @@
+config.php         
+database.php        
+database.txt
+
+.DS_Store           
+Thumbs.db          
+
+*.sql               
+*.bak             
+
+vendor/       
