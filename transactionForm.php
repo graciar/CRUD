@@ -14,8 +14,6 @@ $product = $result->fetch();
 $name = $product["name"];
 $stock = $product["stock"];
 
-
-
 if(isset($_POST["submit"])){
     if (empty($_POST["qty"])) {
         array_push($errors, "is required");

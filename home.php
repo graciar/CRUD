@@ -18,6 +18,8 @@ if(!$_SESSION["username"]){
     <title>Document</title>
 </head>
 <body>
+
+<div class="container border mt-3 p-3">
     <div class="container mt-3">
         <table class="table table-sm table-bordered">
         <tr>
@@ -47,9 +49,12 @@ if(!$_SESSION["username"]){
         ?>
         </table>
     </div>
+    <div class=" ">
 
-    <br>
-    <a href="logout.php" style="text-decoration: underline; color: black;" class="container px-4">Log Out</a>
-
+        <a href="add.php" style="text-decoration: underline; color: black;">add product</a>
+        <br>
+        <a href="logout.php" style="text-decoration: underline; color: black;" class="container px-4">Log Out</a>
+    </div>
+</div>
 </body>
 </html>

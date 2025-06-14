@@ -25,8 +25,7 @@
         }
         if(isset($_SESSION["username"])){
             home();
-      }
-        
+        }
    ?>
 <body>
 
